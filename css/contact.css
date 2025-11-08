@@ -1,0 +1,417 @@
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 49px;
+	background: linear-gradient(180deg, #f2f9fd 0%, rgba(242, 249, 253, 0) 100%) top left / auto auto no-repeat;
+	padding: 108px 24px 109px 24px;
+	--minContent: 1440;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.text-a {
+	color: var(--grays-gray-900);
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: 0px;
+	text-align: left;
+	--minContent: 700;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.text-b {
+	color: var(--basics-black);
+	font-size: 20px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: 0px;
+	text-align: left;
+	--minContent: 367;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* button */
+
+.button {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	--minContent: 239;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.button-mail {
+	width: 20px;
+	flex-shrink: 0;
+	aspect-ratio: 1 / 1;
+	--minContent: 20;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.button-text {
+	color: var(--grays-gray-900);
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0px;
+	text-align: right;
+	--minContent: 213;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+/* end button*/
+
+
+.contact-graphic {
+	flex-shrink: 0;
+	--minContent: 239;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.contact-content1 {
+	margin: 0 48px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	align-self: stretch;
+	--minContent: 1392;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.contact-title {
+	text-align: left;
+	--minContent: 1296;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.contact-text-para-consultas {
+	margin-right: 629px;
+	color: var(--grays-gray-900);
+	text-align: left;
+	--minContent: 1296;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.contact-content2 {
+	width: 100%;
+	max-width: 1296px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 116px;
+	row-gap: 0;
+	padding-right: 65px;
+	--minContent: 1296;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-form {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	flex-grow: 1;
+	background-color: var(--basics-white);
+	padding: 23px;
+	border: 1px solid var(--grays-gray-100);
+	border-radius: 20px;
+	--minContent: 748;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* input-group-row */
+
+.input-group-row {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	--minContent: 700;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.input-group-row-input1 {
+	color: var(--grays-gray-400);
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0px;
+	text-align: left;
+	padding-bottom: 11px;
+	--minContent: 700;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end input-group-row*/
+
+
+.card-form-input-area {
+	container: card-form-input-area / inline-size;
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	--minContent: 700;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-form-text {
+	color: var(--grays-gray-900);
+	text-align: left;
+	--minContent: 700;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.input-group-row1 {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	--minContent: 700;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.input-group-row-input {
+	width: 100%; height: 48px;
+	flex-grow: 1;
+	color: var(--grays-gray-400);
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0px;
+	text-align: left;
+	background-color: var(--grays-gray-50);
+	padding: 11px 17px;
+	border: 1px solid var(--grays-gray-100);
+	border-radius: 8px;
+	--minContent: 345;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.input-group-row4 {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	--minContent: 700;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.input-group-row-input4 {
+	height: 160px;
+	flex-shrink: 0;
+	color: var(--grays-gray-400);
+	text-align: left;
+	padding-bottom: 123px;
+	--minContent: 700;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-form-btn-primary {
+	align-self: start;
+	color: var(--basics-white);
+	background-color: var(--basics-black);
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.contact-col-right {
+	width: 100%;
+	max-width: 367px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 42px;
+	flex-shrink: 0;
+	--minContent: 367;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* phone */
+
+.phone {
+	display: flex;
+	flex-direction: column;
+	gap: 19px;
+	align-self: stretch;
+	--minContent: 367;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.phone-list {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	--minContent: 239;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end phone*/
+
+
+.phone3 {
+	width: 288px;
+	align-self: unset;
+}
+
+.phone3 .phone-list {
+	align-items: stretch;
+}
+
+.phone3 .btn1 .button-mail {
+	width: 24px;
+}
+
+.phone3 .btn2 .button-mail {
+	width: 24px;
+}
+
+.contact-capa {
+	width: 100%; height: 34px;
+	max-width: 367px;
+}
+
+.contact-phone {
+	width: 288px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 19px;
+	--minContent: 288;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.contact-text-nuestras-redes {
+	align-self: stretch;
+	color: var(--neutral-neutral-04);
+}
+
+.contact-graphic1 {
+	width: 288px; height: 40px;
+}
+
+
+
+/** breakpoints (margin / paddings) **/
+
+@media screen and (max-width: 1280px) {
+	.contact {
+		padding-inline: var(--margin-sm);
+	}
+	.contact-content1 {
+		margin-inline: 0;
+	}
+	.contact-text-para-consultas {
+		margin-inline: 0;
+	}
+	.contact-content2 {
+		padding-inline: 0;
+	}
+	.card-form {
+		padding-inline: var(--margin-sm);
+	}
+}
+
+
+
+/* container queries (flex rows) */
+
+@container card-form-input-area (width < 699px) {
+	.input-group-row1 {
+		flex-direction: column;
+		align-items: center;
+		gap: 14px;
+	}
+	.input-group-row1 > * {
+		text-align: center;
+	}
+	.input-group-row1 > .input-group-row-input2 {
+		width: 100%;
+	}
+	.input-group-row1 > .input-group-row-input3 {
+		width: 100%;
+	}
+}
