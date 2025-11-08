@@ -1,18 +1,10 @@
 
 :root {
 	/* color variables */
-	--grays-gray-900: #111;
-	--basics-white: #fff;
-	--primary-primary-300: #61b8e6;
-	--neutral-white: #fff;
-	--primary-primary-600: #0070ac;
-	--primary-primary-900: #001c2b;
-	--primary-primary-500: #008cd7;
-	--grays-gray-100: #dbdbdb;
-	--grays-gray-50: #f7f7f7;
-	--grays-gray-400: #6d6d6d;
 	--basics-black: #000;
-	--neutral-neutral-04: #000;
+	--basics-white: #fff;
+	--grays-gray-900: #111;
+	--primary-primary-200: #91ceee;
 
 	/* responsive margins / paddings */
 	--margin-sm: 16px;
@@ -28,27 +20,8 @@ html {
 
 /* text utility classes */
 
-.base-m-semibold {
-	font-size: 16px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 600;
-	line-height: 1.5;
-	letter-spacing: 0px;
-}
-
-.headlines-headline-m-semibold {
-	color: #fff;
-	font-size: 48px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 500;
-	line-height: 1.167;
-	letter-spacing: 0px;
-}
-
 .headlines-headline-s-regular {
-	color: var(--primary-primary-500);
+	color: #008cd7;
 	font-size: 40px;
 	font-family: 'Roboto';
 	font-style: normal;
@@ -58,6 +31,7 @@ html {
 }
 
 .base-m-regular {
+	color: var(--grays-gray-900);
 	font-size: 16px;
 	font-family: 'Roboto';
 	font-style: normal;
@@ -66,34 +40,16 @@ html {
 	letter-spacing: 0px;
 }
 
-.base-s-regular {
-	font-style: normal;
+.base-m-regular {
+	color: #111;
+	font-family: 'Roboto';
 	font-weight: 400;
 }
 
-.base-s-semibold {
-	color: var(--primary-primary-600);
-	font-size: 14px;
+.base-m-bold {
+	color: #111;
 	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 600;
-	line-height: 1.429;
-	letter-spacing: 0px;
-}
-
-.base-s-bold {
 	font-weight: 700;
-}
-
-
-
-/* ui objects utility classes */
-
-.input-light {
-	background-color: var(--grays-gray-50);
-	padding: 11px 17px 0 17px;
-	border: 1px solid var(--grays-gray-100);
-	border-radius: 8px;
 }
 
 
@@ -104,13 +60,10 @@ html {
 	filter: brightness(1.2);
 }
 
-.hover-dark:hover {
-	filter: brightness(0.85);
-}
-
 .btn-primary {
 	display: flex;
 	justify-content: center;
+	color: var(--basics-white);
 	font-size: 16px;
 	font-family: 'Roboto';
 	font-style: normal;
@@ -118,12 +71,7 @@ html {
 	line-height: 1.5;
 	letter-spacing: 0px;
 	text-align: center;
-	padding-left: 32px;
-	padding-right: 31px;
+	background-color: var(--basics-black);
+	padding: 8px 32px 8px 33px;
 	border-radius: 100px;
-	--minContent: 125;
-	--hSizing: HUG;
-	--vSizing: HUG;
-	--pConstraintHorizontal: MIN;
-	--pConstraintVertical: CENTER;
 }
