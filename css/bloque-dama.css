@@ -1,0 +1,116 @@
+.bloque {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 24px;
+	--minContent: 923;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.bloque-contenido-dama {
+	width: 100%;
+	max-width: 487px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+	flex-shrink: 0;
+	padding-bottom: 20px;
+	overflow: hidden;
+	--minContent: 487;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.bloque-txts {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	align-self: stretch;
+	--minContent: 487;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.bloque-title {
+	text-align: left;
+	--minContent: 487;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.bloque-text {
+	text-align: left;
+	--minContent: 487;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.bloque-btn-primary {
+	justify-content: center;
+	text-align: center;
+	--minContent: 148;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.bloque-isolation {
+	rotate: 180deg;
+	transform-origin: 50% 50%;
+	width: 138px;
+	flex-shrink: 0;
+	--minContent: 138;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.bloque-img-dama {
+	width: 100%;
+	max-width: 388px;
+	flex-shrink: 0;
+	--minContent: 388;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+
+
+/** breakpoints (margin / paddings) **/
+
+@media screen and (max-width: 576px) {
+	.bloque {
+		padding-inline: var(--margin-sm);
+	}
+}
+
+
+
+/* container queries (flex rows) */
+
+@media(max-width:922px) {
+	.bloque {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 66px;
+	}
+	.bloque > * {
+		margin-top: unset !important;
+	}
+}
