@@ -1,0 +1,9 @@
+.textura {
+	rotate: 180deg;
+	transform-origin: 50% 50%;
+	--minContent: 1611;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
