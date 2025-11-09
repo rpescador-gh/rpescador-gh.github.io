@@ -1,0 +1,273 @@
+.full-head {
+	container: full-head / inline-size;
+	position: relative;
+	height: 600px;
+	background-color: var(--neutral-white);
+	--minContent: 0;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* hero-b */
+
+.hero-b {
+	position: absolute; top: 50%; left: 0; right: 0; 
+	translate: 0 -50%;
+	height: 600px;
+	background: url(../assets/full-head/hero-b/hero-b.png) top left / cover no-repeat;
+	--minContent: 0;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: CENTER;
+}
+
+.hero-b-waves {
+	position: absolute; bottom: 1px; left: 50%; 
+	translate: -50% 0;
+	width: calc(100% - 32px); height: 263px;
+	max-width: 1440px;
+	--minContent: 936;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MAX;
+}
+
+.hero-b-blur {
+	position: absolute; top: 0; left: 0; 
+	backdrop-filter: blur(10px);
+	width: 100%; height: 100%;
+	background: linear-gradient(301deg, rgba(0, 56, 86, 0) 9%, #003856 100%) top left / auto auto no-repeat;
+	--minContent: 936;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: SCALE;
+	--pConstraintVertical: SCALE;
+}
+/* end hero-b*/
+
+
+.full-head-contenido {
+	position: absolute; top: 282px; left: 124px; 
+	width: calc(100% - 248px);
+	max-width: 580px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	--minContent: 580;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.full-head-title {
+	width: 100%;
+	align-self: center;
+	text-align: left;
+	--minContent: 580;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: SCALE;
+	--pConstraintVertical: CENTER;
+}
+
+.full-head-text-improve {
+	color: #fff;
+	text-align: left;
+	--minContent: 580;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.full-head-navbar {
+	position: absolute; top: 122px; left: 50%; 
+	translate: -50% 0;
+	backdrop-filter: blur(30px);
+	margin-left: 1px;
+	width: max-content;
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 12px 28px;
+	border-radius: 40px;
+	--minContent: 1013;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.full-head-text-btn1 {
+	text-align: left;
+	--minContent: 35;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.full-head-text-btn2 {
+	text-align: left;
+	--minContent: 83;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.full-head-text-btn3 {
+	text-align: left;
+	--minContent: 48;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.full-head-text-btn4 {
+	text-align: left;
+	--minContent: 103;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.full-head-text-btn5 {
+	text-align: left;
+	--minContent: 91;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.full-head-text-btn6 {
+	text-align: left;
+	--minContent: 64;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.full-head-text-btn7 {
+	text-align: left;
+	--minContent: 50;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.full-head-text-btn8 {
+	text-align: left;
+	--minContent: 85;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.full-head-text-btn9 {
+	text-align: left;
+	--minContent: 52;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.full-head-text-btn10 {
+	color: var(--primary-primary-900);
+	text-align: left;
+	--minContent: 57;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.full-head-registro {
+	position: absolute; top: 43px; right: 213px; 
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	--minContent: 177;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MAX;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* circle-icon-btn */
+
+.circle-icon-btn {
+	width: 40px; height: 40px;
+	flex-shrink: 0;
+	background-color: var(--basics-white);
+	padding: 10px;
+	border: 1px solid var(--primary-primary-500);
+	border-radius: 50%;
+	--minContent: 40;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.circle-icon-btn-icon {
+	margin: 0 auto;
+	width: 18px; height: 18px;
+	--minContent: 18;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+/* end circle-icon-btn*/
+
+
+.full-head-btn-secondary {
+	color: var(--primary-primary-500);
+	background-color: var(--basics-white);
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border: 1px solid var(--primary-primary-500);
+}
+
+.full-head-logos {
+	position: absolute; top: 28px; left: 215px; 
+	width: 308px; height: 70px;
+	--minContent: 308;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* container queries (flex rows) */
+
+@container full-head (width < 1012px) {
+	.full-head-navbar {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+	.full-head-navbar > * {
+		text-align: center;
+	}
+}
