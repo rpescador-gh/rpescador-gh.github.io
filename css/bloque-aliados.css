@@ -1,0 +1,137 @@
+.bloquealiados {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+	background: linear-gradient(180deg, #f2f9fd 0%, rgba(242, 249, 253, 0) 100%) top left / auto auto no-repeat;
+	padding-top: 72px;
+	padding-bottom: 52px;
+}
+
+.bloquealiados-title {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 896px;
+	text-align: center;
+}
+
+.bloquealiados-logos {
+	container: bloque-logos / inline-size;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 44px;
+	align-self: stretch;
+	padding: 40px 24px;
+}
+
+
+
+/* row */
+
+.row {
+	display: flex;
+	align-items: center;
+	gap: 100px;
+}
+
+.row-caja {
+	mix-blend-mode: multiply;
+	flex-shrink: 0;
+}
+/* end row*/
+
+
+.row1 .row-caja-de-retiro {
+	width: 131px;
+}
+
+.row1 .row-caja-honor {
+	width: 73px;
+}
+
+.row1 .row-corporacion1 {
+	width: 139px;
+}
+
+.row1 .row-corporacion2 {
+	width: 82px;
+}
+
+.row1 .row-agencia {
+	width: 113px;
+}
+
+.row1 .row-cotecmar {
+	width: 72px;
+}
+
+.row2 .row-caja-de-retiro {
+	width: 72px;
+}
+
+.row2 .row-caja-honor {
+	width: 73px;
+}
+
+.row2 .row-corporacion1 {
+	width: 72px;
+}
+
+.row2 .row-corporacion2 {
+	width: 142px;
+}
+
+.row2 .row-agencia {
+	width: 59px;
+}
+
+.row2 .row-cotecmar {
+	width: 83px;
+}
+
+.row3 .row-caja-de-retiro {
+	width: 100px;
+}
+
+.row3 .row-caja-honor {
+	width: 65px;
+}
+
+.row3 .row-corporacion1 {
+	width: 72px;
+}
+
+.row3 .row-corporacion2 {
+	width: 88px;
+}
+
+.row3 .row-agencia {
+	width: 72px;
+}
+
+.row3 .row-cotecmar {
+	width: 75px;
+}
+
+
+
+/** breakpoints (margin / paddings) **/
+
+@media screen and (max-width: 1280px) {
+	.bloquealiados-logos {
+		padding-inline: var(--margin-sm);
+	}
+}
+
+
+
+/* container queries (flex rows) */
+
+@container bloque-logos (width < 1109px) {
+	.row {
+		flex-direction: column;
+		align-items: center;
+		gap: 15px;
+	}
+}

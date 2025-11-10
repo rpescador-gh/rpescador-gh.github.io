@@ -1,4 +1,4 @@
-.bloque {
+.bloquedama {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -10,7 +10,7 @@
 	--pConstraintVertical: MIN;
 }
 
-.bloque-contenido-dama {
+.bloquedama-contenido {
 	width: 100%;
 	max-width: 487px;
 	display: flex;
@@ -27,7 +27,7 @@
 	--pConstraintVertical: CENTER;
 }
 
-.bloque-txts {
+.bloquedama-txts {
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
@@ -39,7 +39,7 @@
 	--pConstraintVertical: MIN;
 }
 
-.bloque-title {
+.bloquedama-title {
 	text-align: left;
 	--minContent: 487;
 	--hSizing: FILL;
@@ -48,7 +48,7 @@
 	--pConstraintVertical: MIN;
 }
 
-.bloque-text {
+.bloquedama-text {
 	text-align: left;
 	--minContent: 487;
 	--hSizing: FILL;
@@ -57,7 +57,7 @@
 	--pConstraintVertical: MIN;
 }
 
-.bloque-btn-primary {
+.bloquedama-btn-primary {
 	justify-content: center;
 	text-align: center;
 	--minContent: 148;
@@ -67,7 +67,7 @@
 	--pConstraintVertical: MIN;
 }
 
-.bloque-isolation {
+.bloquedama-isolation {
 	rotate: 180deg;
 	transform-origin: 50% 50%;
 	width: 138px;
@@ -79,7 +79,7 @@
 	--pConstraintVertical: MIN;
 }
 
-.bloque-img-dama {
+.bloquedama-img {
 	width: 100%;
 	max-width: 388px;
 	flex-shrink: 0;
@@ -95,7 +95,7 @@
 /** breakpoints (margin / paddings) **/
 
 @media screen and (max-width: 576px) {
-	.bloque {
+	.bloquedama {
 		padding-inline: var(--margin-sm);
 	}
 }
@@ -105,12 +105,12 @@
 /* container queries (flex rows) */
 
 @media(max-width:922px) {
-	.bloque {
+	.bloquedama {
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 66px;
 	}
-	.bloque > * {
+	.bloquedama > * {
 		margin-top: unset !important;
 	}
 }
