@@ -41,6 +41,7 @@
 
 .bloquedama-title {
 	text-align: left;
+    font-family: 'Roboto';
 	--minContent: 487;
 	--hSizing: FILL;
 	--vSizing: HUG;
@@ -60,6 +61,8 @@
 .bloquedama-btn-primary {
 	justify-content: center;
 	text-align: center;
+	font-family: 'Roboto';
+    text-align: center;
 	--minContent: 148;
 	--hSizing: HUG;
 	--vSizing: HUG;
