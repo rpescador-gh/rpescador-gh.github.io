@@ -51,6 +51,7 @@
 
 .bloquedama-text {
 	text-align: left;
+	font-family: 'Roboto';
 	--minContent: 487;
 	--hSizing: FILL;
 	--vSizing: HUG;
