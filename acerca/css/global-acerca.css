@@ -1,0 +1,82 @@
+
+:root {
+	/* color variables */
+	--neutral-white: #fff;
+	--primary-primary-600: #0070ac;
+	--primary-primary-900: #001c2b;
+	--basics-white: #fff;
+	--primary-primary-500: #008cd7;
+
+	/* responsive margins / paddings */
+	--margin-sm: 16px;
+	--margin-md: 32px;
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+
+
+/* text utility classes */
+
+.headlines-headline-m-semibold {
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.167;
+	letter-spacing: 0px;
+}
+
+.base-s-semibold {
+	color: var(--primary-primary-600);
+	font-size: 14px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.429;
+	letter-spacing: 0px;
+}
+
+.base-m-semibold {
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: 0px;
+}
+
+
+
+/* ui objects utility classes */
+
+.btn-white {
+	display: flex;
+	background-color: var(--basics-white);
+	padding: 7px 31px 7px 32px;
+	border: 1px solid var(--primary-primary-500);
+	border-radius: 100px;
+}
+
+
+
+/* button hover utility classes */
+
+.hover-dark:hover {
+	filter: brightness(0.85);
+}
+
+
+.headlines-headline-s-regular {
+	color: #008cd7;
+	font-size: 40px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+	letter-spacing: 0px;
+}
