@@ -1,0 +1,25 @@
+.col {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.title-improve-your-chances {
+	margin: 0 22px;
+	color: #008cd7;
+	text-align: center;
+}
+
+.text-if-you-re-looking {
+	text-align: center;
+}
+
+
+
+/** breakpoints (margin / paddings) **/
+
+@media screen and (max-width: 768px) {
+	.title-improve-your-chances {
+		margin-inline: var(--margin-sm);
+	}
+}
