@@ -18,7 +18,7 @@
 	width: 98%; height: 366px;
 	max-width: 960px;
 	flex-grow: 1;
-	background: url(../assets/ideaton-img.png) top left / cover no-repeat;
+	background: url(../assets/ideaton/ideaton-img.png) top left / cover no-repeat;
 	border-radius: 40px;
 }
 
