@@ -1,0 +1,167 @@
+
+:root {
+	/* color variables */
+	--grays-gray-900: #111;
+	--basics-white: #fff;
+	--primary-primary-300: #61b8e6;
+	--neutral-white: #fff;
+	--primary-primary-500: #008cd7;
+	--primary-primary-600: #0070ac;
+	--primary-primary-900: #001c2b;
+	--secondary-secondary-500: #ff3d00;
+	--grays-gray-300: #a4a4a4;
+	--primary-primary-100: #bfe2f5;
+	--basics-black: #000;
+
+	/* responsive margins / paddings */
+	--margin-sm: 16px;
+	--margin-md: 32px;
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+
+
+/* text utility classes */
+
+.headlines-headline-s-regular {
+	color: #008cd7;
+	font-size: 40px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+	letter-spacing: 0px;
+}
+
+.base-s-semibold {
+	color: var(--primary-primary-600);
+	font-size: 14px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.429;
+	letter-spacing: 0px;
+}
+
+.base-s-regular {
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.429;
+	letter-spacing: 0px;
+}
+
+.headlines-headline-m-semibold {
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.167;
+	letter-spacing: 0px;
+}
+
+.base-xs-regular {
+	color: var(--basics-black);
+	font-size: 12px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.333;
+	letter-spacing: 0px;
+}
+
+.base-m-regular-a {
+	color: var(--grays-gray-900);
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0px;
+}
+
+.base-m-semibold {
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: 0px;
+}
+
+.base-m-bold {
+	color: #111;
+	font-family: 'Roboto';
+	font-weight: 700;
+}
+
+.base-s-bold {
+	color: #fff;
+	font-family: 'Roboto';
+	font-weight: 700;
+}
+
+.base-s-regular {
+	color: #fff;
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+
+.base-m-regular {
+	color: #111;
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+
+.base-xl-semibold {
+	color: #fff;
+	font-size: 24px;
+	font-family: 'Roboto';
+	font-weight: 600;
+	letter-spacing: 0px;
+}
+
+.base-m-regular {
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	letter-spacing: 0px;
+}
+
+
+
+/* ui objects utility classes */
+
+.card-light {
+	background-color: var(--primary-primary-100);
+	padding: 2px 10px 2px 11px;
+	border-radius: 100px;
+}
+
+.btn-white {
+	display: flex;
+	background-color: var(--basics-white);
+	padding: 7px 31px 7px 32px;
+	border: 1px solid var(--primary-primary-500);
+	border-radius: 100px;
+}
+
+
+
+/* button hover utility classes */
+
+.hover-dark:hover {
+	filter: brightness(0.85);
+}
+
+.hover-bright:hover {
+	filter: brightness(1.2);
+}
