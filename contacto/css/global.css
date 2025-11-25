@@ -1,0 +1,150 @@
+
+:root {
+	/* color variables */
+	--grays-gray-900: #111;
+	--basics-white: #fff;
+	--primary-primary-300: #61b8e6;
+	--neutral-white: #fff;
+	--primary-primary-500: #008cd7;
+	--primary-primary-600: #0070ac;
+	--primary-primary-900: #001c2b;
+	--grays-gray-100: #dbdbdb;
+	--grays-gray-50: #f7f7f7;
+	--grays-gray-400: #6d6d6d;
+	--basics-black: #000;
+	--secondary-secondary-500: #ff3d00;
+	--neutral-neutral-04: #000;
+
+	/* responsive margins / paddings */
+	--margin-sm: 16px;
+	--margin-md: 32px;
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+
+
+/* text utility classes */
+
+.base-m-regular {
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0px;
+}
+
+.base-m-semibold {
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: 0px;
+}
+
+.base-s-semibold {
+	color: var(--primary-primary-600);
+	font-size: 14px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.429;
+	letter-spacing: 0px;
+}
+
+.headlines-headline-m-semibold {
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.167;
+	letter-spacing: 0px;
+}
+
+.headlines-headline-s-regular {
+	color: var(--primary-primary-500);
+	font-size: 40px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+	letter-spacing: 0px;
+}
+
+.base-s-regular {
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.429;
+	letter-spacing: 0px;
+}
+
+.base-s-bold {
+	color: #fff;
+	font-family: 'Roboto';
+	font-weight: 700;
+}
+
+.base-s-regular {
+	color: #fff;
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+
+.base-s-bold {
+	color: var(--primary-primary-500);
+	font-family: 'Roboto';
+	font-weight: 700;
+}
+
+.base-s-regular {
+	color: var(--grays-gray-900);
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+
+
+
+/* ui objects utility classes */
+
+.btn-black {
+	display: flex;
+	background-color: var(--basics-black);
+	padding: 8px 32px 8px 33px;
+	border-radius: 100px;
+}
+
+.input-light {
+	background-color: var(--grays-gray-50);
+	padding: 11px 17px;
+	border: 1px solid var(--grays-gray-100);
+	border-radius: 8px;
+}
+
+.btn-white {
+	display: flex;
+	background-color: var(--basics-white);
+	padding: 7px 31px 7px 32px;
+	border: 1px solid var(--primary-primary-500);
+	border-radius: 100px;
+}
+
+
+
+/* button hover utility classes */
+
+.hover-bright:hover {
+	filter: brightness(1.2);
+}
+
+.hover-dark:hover {
+	filter: brightness(0.85);
+}
